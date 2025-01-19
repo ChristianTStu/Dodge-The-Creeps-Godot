@@ -1,7 +1,11 @@
+Timer
+Button
+Label
+Control
+CanvasLayer
 PathFollow2D
 Path2D
 Marker2D
-Timer
 Node
 CollisionShape2D
 AnimatedSprite2D
