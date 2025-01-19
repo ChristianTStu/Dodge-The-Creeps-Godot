@@ -3,7 +3,7 @@ extends Area2D
 signal hit
 
 @export var speed: int = 400 # How fast the player will move (pixels/sec).
-var screen_size # Size of the game window.
+var screen_size: Vector2 # Size of the game window.
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -13,7 +13,7 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	var velocity = Vector2.ZERO # The player's movement vector.
+	var velocity: Vector2 = Vector2.ZERO # The player's movement vector.
 	if Input.is_action_pressed("move_right"):
 		velocity.x += 1
 	if Input.is_action_pressed("move_left"):
@@ -40,7 +40,7 @@ func _process(delta: float) -> void:
 		$AnimatedSprite2D.animation = "up" # Play the "up" animation
 		$AnimatedSprite2D.flip_v = velocity.y > 0 # Flip vertically if moving down
 
-func start(pos):
+func start(pos: Vector2) -> void:
 	# Set the player's postion to wherever we specify.
 	position = pos
 	
