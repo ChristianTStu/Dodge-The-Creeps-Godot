@@ -1,8 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737108859
+::res://::1737264965
 icon.svg::CompressedTexture2D::3700412271208031674::1737108652::1737108772::1::::<><>::
+main.gd::GDScript::-1::1737264952::0::1::::<>Node<>::
+main.tscn::PackedScene::7299874480266291489::1737264952::0::1::::<><>::res://main.gd<>uid://mccyeb5dgfwt::::res://player.tscn<>uid://fp6y8kv2bqyc::::res://mob.tscn
+mob.gd::GDScript::-1::1737263699::0::1::::<>RigidBody2D<>::
+mob.tscn::PackedScene::383836720039418954::1737263702::0::1::::<><>::res://mob.gd<>uid://bc1qk2w0tflbw::::res://art/enemyFlyingAlt_1.png<>uid://d03helwvuefqp::::res://art/enemyFlyingAlt_2.png<>uid://bftvwc58d6cvb::::res://art/enemySwimming_1.png<>uid://dfe4hv7u3aaqx::::res://art/enemySwimming_2.png<>uid://kst70k26xe80::::res://art/enemyWalking_1.png<>uid://qiqjeqyyt77q::::res://art/enemyWalking_2.png
+player.gd::GDScript::-1::1737263699::0::1::::<>Area2D<>::
+player.tscn::PackedScene::846559385209277683::1737263701::0::1::::<><>::uid://c4bj5868ku7lo::::res://art/playerGrey_up1.png<>res://player.gd<>uid://xof6tt56g1b7::::res://art/playerGrey_up2.png<>uid://deslvrd5bs06i::::res://art/playerGrey_walk1.png<>uid://pncrq0umxp0h::::res://art/playerGrey_walk2.png
 README.md::TextFile::-1::1737108213::0::1::::<><>::
-::res://art/::1722338834
+::res://art/::1737108890
 enemyFlyingAlt_1.png::CompressedTexture2D::2581462975675668700::1722338834::1737108890::1::::<><>::
 enemyFlyingAlt_2.png::CompressedTexture2D::8972218493992354243::1722338834::1737108890::1::::<><>::
 enemySwimming_1.png::CompressedTexture2D::2777902576419834395::1722338834::1737108890::1::::<><>::
@@ -15,7 +21,7 @@ playerGrey_up1.png::CompressedTexture2D::6810984020068293540::1722338834::173710
 playerGrey_up2.png::CompressedTexture2D::1643604665506157514::1722338834::1737108890::1::::<><>::
 playerGrey_walk1.png::CompressedTexture2D::7477882512693444778::1722338834::1737108890::1::::<><>::
 playerGrey_walk2.png::CompressedTexture2D::1079822237774558413::1722338834::1737108890::1::::<><>::
-::res://fonts/::1722338834
+::res://fonts/::1737108890
 FONTLOG.txt::TextFile::-1::1722338834::0::1::::<><>::
 LICENSE.txt::TextFile::-1::1722338834::0::1::::<><>::
 Xolonium-Regular.ttf::FontFile::2490987572391237338::1722338834::1737108890::1::::<><>::

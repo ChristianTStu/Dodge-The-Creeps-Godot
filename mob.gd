@@ -3,7 +3,7 @@ extends RigidBody2D
 func _ready() -> void:
 	# Get an array of animation names from the sprite frames
 	# Returns: Array[String] = ["walk", "swim", "fly"]
-	var mob_types: Array[String] = $AnimatedSprite2D.sprite_frames.get_animation_names()
+	var mob_types: PackedStringArray = $AnimatedSprite2D.sprite_frames.get_animation_names()
 	
 	# Select and play a random animation:
 	# 1. randi() generates a random integer
